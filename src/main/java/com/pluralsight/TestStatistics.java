@@ -7,18 +7,30 @@ public class TestStatistics {
         // Create an array of 10 test scores.
         // (Makes array with 5 indexes, each with a double representing
         // your test scores)
-        double[] testScores = {100.0,100.0,75.0,0,85.0};
+        double[] testScores = {100,100,95,0,85};
 
+        // Display the information about your test scores array
+        display(testScores);
     }
 
     // Method to display information to the terminal
     public static void display(double[] testScores) {
+        // Calculate the average, high-score, low-score, and median
         double average = calculateAverage(testScores);
         double highScore = calculateHighestScore(testScores);
         double lowScore = calculateLowestScore(testScores);
         double median = calculateMedian(testScores);
-
-
+        // Display the current scores in the array
+        System.out.println("-> Here are your test scores!");
+        for (double score : testScores) {
+            System.out.printf("[%.2f]%n",score);
+        }
+        // Display the average, high-score, low-score, and median
+        System.out.println("-> Here's some metrics on your test scores...");
+        System.out.printf("[AVERAGE]: %.2f%n", average);
+        System.out.printf("[HIGHEST SCORE]: %.2f%n", highScore);
+        System.out.printf("[LOWEST SCORE]: %.2f%n", lowScore);
+        System.out.printf("[MEDIAN SCORE]: %.2f%n", median);
     }
 
     // Method to calculate the average in a double array
