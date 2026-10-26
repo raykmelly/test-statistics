@@ -2,7 +2,7 @@ package com.pluralsight;
 
 import java.util.Arrays;
 
-public class TestStatistics {
+public class TestStats {
     public static void main(String[] args) {
         // Create an array of 10 test scores.
         // (Makes array with 5 indexes, each with a double representing

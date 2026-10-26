@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0da6b94-4e91-49ce-af08-036b3618705c" name="Changes" comment="Finished all the methods to calculate the average, median, highest value and lowest value. Making a method to display the calculations from a array of test scores">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/TestStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/TestStatistics.java" afterDir="false" />
+    <list default="true" id="b0da6b94-4e91-49ce-af08-036b3618705c" name="Changes" comment="Having issues running the project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/TestStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/TestStatistics.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +80,20 @@
       <option name="project" value="LOCAL" />
       <updated>1793038015873</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Having issues running the project">
+      <created>1793039053542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1793039053542</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started project" />
     <MESSAGE value="Finished all the methods to calculate the average, median, highest value and lowest value. Making a method to display the calculations from a array of test scores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished all the methods to calculate the average, median, highest value and lowest value. Making a method to display the calculations from a array of test scores" />
+    <MESSAGE value="Having issues running the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Having issues running the project" />
   </component>
 </project>
